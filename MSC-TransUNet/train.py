@@ -10,7 +10,7 @@ from trainer import trainer_ACDC, trainer_synapse
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--dataset', type=str,
-                    default='ACDC', help='experiment_name, the choice is [ACDC, Synapse]')
+                    default='Synapse', help='experiment_name, the choice is [ACDC, Synapse]')
 parser.add_argument('--root_path', type=str,
                     default='../data/ACDC',
                     help='root dir for data')
